@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GGSteps" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sE3-L6-DPO">
+                                <rect key="frame" x="107" y="459.5" width="200" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="A1E-hm-IJK"/>
+                                    <constraint firstAttribute="width" constant="200" id="SWc-NE-uHm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="65"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zdz-zt-UTZ">
+                                <rect key="frame" x="157" y="283.5" width="100" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="OnE-85-CM4"/>
+                                    <constraint firstAttribute="height" constant="120" id="iAa-km-yRm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIB-en-6co">
+                                <rect key="frame" x="144.5" y="94" width="125" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <color key="textColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="s1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWG-rc-aAf">
+                                <rect key="frame" x="194" y="150" width="26.5" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBg-qB-zNj">
+                                <rect key="frame" x="207" y="231.5" width="0.0" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="sUB-FV-kWy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMD-rj-lnl">
+                                <rect key="frame" x="165.5" y="213.5" width="83.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAr-sD-HgA">
+                                <rect key="frame" x="107" y="712" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.83979147672653198" green="0.87486451864242554" blue="0.95605796575546265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="RhZ-Jb-WnK"/>
+                                    <constraint firstAttribute="height" constant="50" id="jLa-q2-c6m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Start Now">
+                                    <color key="titleColor" red="0.11797831378016231" green="0.21815798282541052" blue="0.35059089467005078" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startNowButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Ta-m2-tCm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yWG-rc-aAf" firstAttribute="top" secondItem="MIB-en-6co" secondAttribute="bottom" constant="26" id="0BW-b4-Udc"/>
+                            <constraint firstItem="MIB-en-6co" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="3Gd-nK-D5X"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uAr-sD-HgA" secondAttribute="bottom" constant="100" id="3cw-Xq-zMv"/>
+                            <constraint firstItem="zdz-zt-UTZ" firstAttribute="top" secondItem="yWG-rc-aAf" secondAttribute="bottom" constant="100" id="Bs6-Pu-BIq"/>
+                            <constraint firstItem="KBg-qB-zNj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BxT-SS-csI"/>
+                            <constraint firstItem="sE3-L6-DPO" firstAttribute="top" secondItem="zdz-zt-UTZ" secondAttribute="bottom" constant="56" id="KqD-gI-7EO"/>
+                            <constraint firstItem="KBg-qB-zNj" firstAttribute="top" secondItem="iMD-rj-lnl" secondAttribute="bottom" id="QiJ-QV-Qbb"/>
+                            <constraint firstItem="yWG-rc-aAf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rtu-R4-K6J"/>
+                            <constraint firstItem="uAr-sD-HgA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bbd-CD-wN9"/>
+                            <constraint firstItem="MIB-en-6co" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eoY-Zb-X1r"/>
+                            <constraint firstItem="iMD-rj-lnl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fXH-6Q-Mff"/>
+                            <constraint firstItem="iMD-rj-lnl" firstAttribute="top" secondItem="yWG-rc-aAf" secondAttribute="bottom" constant="30" id="fXa-1s-VBq"/>
+                            <constraint firstItem="sE3-L6-DPO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jID-G1-vE1"/>
+                            <constraint firstItem="zdz-zt-UTZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o3L-Vg-QrC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityState" destination="KBg-qB-zNj" id="GWl-Gg-9R5"/>
+                        <outlet property="btnStartNow" destination="uAr-sD-HgA" id="Y3t-xD-JgZ"/>
+                        <outlet property="lblCurentValue" destination="sE3-L6-DPO" id="SPN-Ry-QhV"/>
+                        <outlet property="lblDailySteps" destination="yWG-rc-aAf" id="DlC-3m-njx"/>
+                        <outlet property="lblSteps" destination="sE3-L6-DPO" id="Q5t-KL-p4E"/>
+                        <outlet property="stateImageView" destination="zdz-zt-UTZ" id="kBQ-p8-AhY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
